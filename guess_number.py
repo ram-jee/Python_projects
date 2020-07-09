@@ -1,3 +1,6 @@
+# This code compares a number entered by user in a range specified by user
+# Displays Won or lost message as per guess
+
 import random
 
 print('Levels: 2-Easy, 5-Medium, 10-Challenge')
