@@ -1,3 +1,6 @@
+# This code forces user to enter string inputs
+# Integer inputs are discarded and user is asked to enter again
+
 
 while True:
   try:
