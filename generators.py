@@ -6,7 +6,7 @@ def gen_func(num):
 #Yields 1 value at a time and then waits
     yield value
 
-
+#Gen function
 g  = gen_func(100)
 
 for i in range(10):
