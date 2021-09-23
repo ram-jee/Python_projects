@@ -7,7 +7,7 @@ def gen_func(num):
     yield value
 
 #Gen function
-g  = gen_func(100)
+g  = gen_func(50)
 
 for i in range(10):
   time.sleep(1)
