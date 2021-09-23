@@ -9,7 +9,7 @@ def gen_func(num):
 #Gen function
 g  = gen_func(500)
 
-for i in range(100):
+for i in range(15):
   time.sleep(1)
 #Prints one value yielded by generator at a time
   print(next(g))
