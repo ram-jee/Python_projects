@@ -7,9 +7,9 @@ def gen_func(num):
     yield value
 
 #Gen function
-g  = gen_func(50)
+g  = gen_func(500)
 
-for i in range(10):
+for i in range(100):
   time.sleep(1)
 #Prints one value yielded by generator at a time
   print(next(g))
